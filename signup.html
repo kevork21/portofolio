@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</head>
+<style>
+    body{
+        background-color: beige;
+    }
+#form{
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+input{
+  margin-bottom: 25px;
+}
+
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">sign up</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="file:///C:/Users/20120/Desktop/HTML%20Kevork/portofolio/login.html">login</a>
+              <a class="nav-link" href="file:///C:/Users/20120/Desktop/HTML%20Kevork/portofolio/signup.html">sign up</a>
+              <a class="nav-link" href="file:///C:/Users/20120/Desktop/HTML%20Kevork/portofolio/social_media.html">contact us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="form">
+        <form action="portofolio.html">
+          <label for="name">name</label>
+          <input type="text" name="name" id="name" required> 
+          <br>
+          <label for="email">email address</label>
+          <input type="email" name="email" id="email" required>
+          <br>
+          <label for="password">password</label>
+          <input type="password" name="password" id="password" required>
+          <br>
+          <label for="birthdate">birthdate</label>
+          <input type="date" name="brithdate" id="birthdate" required>
+          <br>
+          <label for="gender">gender</label>
+          <div id="gender">
+              <input type="radio" name="gender" id="male" required value="male"  >   <label for="gender">male</label> 
+              <input type="radio" name="gender" id="female"required value="female">  <label for="gender">female</label>
+          </div>
+          <label for="language">language</label required>
+          <div id="language" >
+              <input type="checkbox" name="language" id="spanish"  value="spanish"> <label for="spanish">spanish</label>
+              <br>
+              <input type="checkbox" name="language" id="english" value="english"> <label for="english">english</label>
+              <br>
+              <input type="checkbox" name="language" id="arabic" value="arabic"> <label for="arabic">arabic</label>
+              <br>
+              <input type="checkbox" name="language" id="french" value="french"> <label for="french">french</label>
+          </div>
+          <label for="country">country</label>
+          <br>
+           <select name="country" id="country" >
+              <option value="spain">spain</option>
+              <option value="USA">USA</option>
+              <option value="egypt">egypt</option>
+              <option value="france">france</option>
+           </select>
+           <br>
+           <br>
+           <input type="submit" name="submit" id="submit" value="sign up">
+  
+      </form>
+      </div>
+    
+
+</body>
+</html>
